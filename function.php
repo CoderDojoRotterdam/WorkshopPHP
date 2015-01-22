@@ -1,107 +1,82 @@
 <?php 
 
 	/*
-
 	-----------------------------------
-	----------- Functions -------------
-	-----------------------------------
-	
-	-----------------------------------
-	-- Basic function
+	----------- Functies -------------
 	-----------------------------------
 	
-	-- code
+	-----------------------------------
+	-- Basis functies - Functies die alleen iets doen!
+	-----------------------------------
 	
-		function hello(){
+	-- Code voorbeeld
+	
+		function hallo(){
 			
-			echo "Hello world!";
+			echo "Hallo CoderDojo!";
 			
 		}
 		
-		hello();
+		hallo();
 		
-	-- result
+	-- Resultaat
 	
-		Hello world!
+		Hallo CoderDojo!
 		
+	---------------------------------------
+	-- Functies die iets terug geven
+	---------------------------------------
 	
-	-----------------------------------
-	-- TODO:
-	-----------------------------------
-	
-	//Basic function
-	function sayHello(){
+	function mijnNaam(){
 		
-		echo "<br/><br/>";
-		echo "Hello World by a function!";
-		
-	}
-	
-	//Use function
-	sayHello();
-	
-	// Function with a return value
-	function myName(){
-		
-		return "Jon";
+		return "Jonathan";
 		
 	}
 	
 	echo "<br/><br/>";
-	echo "My name is " . myName();
+	echo "Hoi, mijn naam is " . mijnNaam();
 	
-	// Function with Arguments
-	// Simple example math
-	function plusMath($a, $b){
+	// Functie die iets kunnen verwerken, bijvoorbeeld een rekensommetje oplossen
+	function plus($a, $b){
 		
-		$answer = $a + $b;
+		$antwoord = $a + $b;
 		
 		echo "<br/><br/>";
-		echo $a . " + " . $b . " = " . $answer;
+		echo $a . " + " . $b . " = " . $antwoord;
 		
 	}
 	
-	plusMath(5, 6);
+	plus(5, 6);
 	
-	// simple math with return value;
-	function minusMath($a, $b){
+	// Functie die een rekensommetje oplost en het antwoord terug geeft
+	function min($a, $b){
 		
 		return $a - $b;
 		
 	}
 	
 	echo "<br/><br/>";
-	echo "The answer is " . minusMath(12, 7);
+	echo "Het antwoord is " . min(12, 7);
 	
 	*/
 
 ?>
 
 <html>
-
-	<head></head>
+	<head>Functies!</head>
 	<body>
-	
 		<h1>Functions!</h1>
-		
 		<h3>------------------------------</h3>
 		
 		<p>
 		<?php 
-			
-			//****** Write your code here! ******
-			
-			echo "Your first function!";
-			
-			
+			// Vanaf hier mag je zelf aan de slag!
+			echo "Probeer hier eens wat te maken met functies! Als je het even niet meer weet, kijk dan naar de voorbeelden hierboven!";
 		?>
 		</p>
 		
 		<h3>------------------------------</h3>
-		
-		<a href="index.php">Back to home</a>
-		
+		<a href="index.php">Terug naar het overzicht</a>
 	
 	</body>
-
 </html>
