@@ -63,7 +63,9 @@
 ?>
 
 <html>
-	<head>Functies!</head>
+	<head>
+		<title>Functies!</title>
+	</head>
 	<body>
 		<h1>Functions!</h1>
 		<h3>------------------------------</h3>
