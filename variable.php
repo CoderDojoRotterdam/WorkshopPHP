@@ -3,141 +3,134 @@
 	/*
 	
 	-----------------------------------
-	----------- Variables -------------
+	----------- Variablen -------------
 	-----------------------------------
 	
 	-----------------------------------
-	-- Basic Variable with string
+	-- Basis - variabelen met tekst
 	-----------------------------------
 	
-	-- code
+	-- Code voorbeeld
 	
-		$food = "apple";
+		$fruit = "appel";
 	
-		echo $food;
+		echo $fruit;
 	
-	-- result
+	-- Resultaat
 	
-		apple
+		Appel
 	
 	-----------------------------------
-	-- Appending string variables
+	-- Tekst aan elkaar plakken
 	-----------------------------------
 	
-	-- code
+	-- Code voorbeeld
 	
-		$name = "Jon";
+		$naam 			= "Jon";
+		$achternaam 	= "van Put"
+		$volledige_naam = $name . " " . $achternaam;
 		
-		$lastname = "van Put"
+		echo "Mijn naam  " . $volledige_naam;
 		
-		$fullname = $name . " " . $lastname;
-		
-		echo "My name is " . $fullname;
-		
-	-- result
+	-- Resultaat
 	
-		My name is Jon van Put
+		Mijn naam is Jon van Put
 	
 	-----------------------------------
-	-- Variables with numbers
+	-- Variabelen met nummers
 	-----------------------------------
 	
-	-- code
+	-- Code voorbeeld
 	 
-		$number = 35;
+		$nummer = 35;
 		
 		echo $number;
 		
-		echo "The number is " . $number;
+		echo "Het nummer is " . $number;
 		
-	-- result 
+	-- Resultaat
 	
 		35
 		
-		The number is 35
+		Het nummer is 35
 	
 	-----------------------------------
-	-- Appending number variables
+	-- Nummers aan elkaar plakken (hetzelfde met tekst)
 	-----------------------------------
 	
-	-- code 
+	-- Code voorbeeld
 		
-		$numberA = 1;
+		$nummerA = 1;
 		
-		$numberB = 5;
+		$nummerB = 5;
 		
-		$numberResult = $numberA . $numberB;
+		$nummerResultaat = $nummerA . $nummerB;
 		
-		echo "The number is " . $numberResult;
+		echo "Het nummer is " . $nummberResultaat;
 		
-	-- result
+	-- Resultaat
 	
-		The number is 15
+		Het nummer is 15
 	
 	-----------------------------------
-	-- Math with variables
+	-- Rekenen met variabelen
 	-----------------------------------
 	
-	-- code
+	-- Code voorbeeld
 	
-		$year = 2015;
+		$jaar = 2015;
 		
-		$birthyear = 1987;
+		$geboortejaar = 1987;
 		
-		$age = $year - $birthyear;
+		$leeftijd = $jaar - $geboortejaar;
 		
-		echo "I am " . $age . " years old!";
+		echo "Ik ben " . $leeftijd . " jaar oud!";
 		
-	-- result
+	-- Resultaat
 	
-		I am 28 years old!
+		Ik ben 28 jaar oud!
 		
 	-----------------------------------
-	-- Combining string and number variables
+	-- Tekst en nummers combineren
 	-----------------------------------
 	
-	-- code 
+	-- Code voorbeeld
 		
-		$fullname = "Jon van Put";
+		$volledige_naam = "Jon van Put";
 		
-		$age = 28;
+		$leeftijd = 28;
 		
-		$profile = "My name is " . $fullname . " and I am " . $age . " years old!";
+		$profiel = "Mijn naam is " . $volledige_naam . " en ik ben " . $leeftijd . " jaar oud!";
 		
-		echo $profile;
+		echo $profiel;
 		
-	-- result
+	-- Resultaat
 	
-		My name is jon van Put and I am 28 years old!
-	
+		Mijn naam is jon van Put en ik ben 28 jaar oud!
 	
 	*/
 ?>
 
 <html>
 
-	<head></head>
+	<head>
+		<title>Variabelen</title>
+	</head>
 	<body>
 	
-		<h1>Variables</h1>
-		
+		<h1>Variabelen</h1>
 		<h3>------------------------------</h3>
 		
 		<p>
 		<?php 
-			
-			//****** Write your code here! ******
-			
-			echo "Your first variable!";
-			
+			// Speel hier zelf een beetje met variabelen, als je het even niet meer snapt kun je altijd hierboven even speieken ;)
+			echo "Nu mag je zelf een beetje spelen met variabelen";
 		?>
 		</p>
 		
 		<h3>------------------------------</h3>
-		
-		<a href="index.php">Back to home</a>
+		<a href="index.php">Terug naar het overzicht</a>
 		
 	
 	</body>
-
 </html>
