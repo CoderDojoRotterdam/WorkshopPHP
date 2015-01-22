@@ -1,122 +1,112 @@
 <?php 
 
 	/*
-	
 	-----------------------------------
-	------------- Loops ---------------
-	-----------------------------------
-	
-	-----------------------------------
-	-- For loop
+	------------- Lusjes --------------
 	-----------------------------------
 	
-	-- code
+	-----------------------------------
+	-- For-lusje (staat eigenlijk voor: voor zolang X ... Doe dit.)
+	-----------------------------------
+	
+	-- Code voorbeeld
 	
 		for($i = 0; $i < 3; $i++){
-			
-			echo "Hello World! Looped " . $i . " times!";
+		
+			echo "Hallo CoderDojo! Dit is het " . $i . " de rondje!";
 			
 		}
 		
-	-- result
+	-- Resultaat
 	
-		Hello World! Looped 0 times!
-		Hello World! Looped 1 times!
-		Hello World! Looped 2 times!
+		Hello CoderDojo! Dit is het  0 de rondje!
+		Hello CoderDojo! Dit is het  1 de rondje!
+		Hello CoderDojo! Dit is het  2 de rondje!
 		
 	-----------------------------------
-	-- For loop with an array
+	-- For-lusje samen met een array!
 	-----------------------------------
 	
-	-- code 
+	-- Coder Voorbeeld
 	
-		$games = array("Zelda", "Mario", "Minecraft");
+		$spelletjes = array("Zelda", "Mario", "Minecraft");
 		
 		for($i = 0; $i < 3; $i++){
 			
-			echo "My favorite game is " . $games[$i];
+			echo "Mijn favoriete spelletje is " . $spelletjes[$i];
 			
 		}
 		
-	-- result
+	-- Resultaat
 	
-		My favorite game is Zelda
-		My favorite game is Mario
-		My favorite game is Minecraft
+		Mijn favoriete spelletje is Zelda
+		Mijn favoriete spelletje is Mario
+		Mijn favoriete spelletje is Minecraft
 		
 	-----------------------------------
-	-- For each loop with array
+	-- For each lusje met array
 	-----------------------------------
 	
-	-- code
+	-- Code voorbeeld
 	
-		$games = array("Zelda", "Mario", "Minecraft");
+		$spelletjes = array("Zelda", "Mario", "Minecraft");
 		
-		foreach($games as $game){
+		foreach($spelletjes as $spel){
 		
-			echo "<br/>My favorite game is " . $game;
+			echo "<br/>Mijn favoriete spelletje is " . $spel;
 			
 		}
 		
-	-- result
+	-- Resultaat
 	
-		My favorite game is Zelda
-		My favorite game is Mario
-		My favorite game is Minecraft
+		My favorite spelletje is Zelda
+		My favorite spelletje is Mario
+		My favorite spelletje is Minecraft
 		
 	-----------------------------------
-	-- For each loop for Associative arrays
+	-- For each lusje met associatieve array
 	-----------------------------------
 	
-	-- code
+	-- Code voorbeeld
 	
-		$games["Nintendo"] = "Mario";
+		$spelletjes["Nintendo"] = "Mario";
 		
-		$games["Playstation"] = "Little Big Planet";
+		$spelletjes["Playstation"] = "Little Big Planet";
 		
-		$games["Pc"] = "Minecraft";
+		$spelletjes["Pc"] = "Minecraft";
 		
-		foreach($games as $key => $value){
+		foreach($spelletjes as $platform => $spelletje){
 		
-			echo $value . " is for " . $key;
+			echo $platform . " is voor " . $platform;
 			
 		}
 		
-	-- result
+	-- Resultaat
 	
-		Mario is for Nintendo
-		Little Big Planet is for Playstation
-		Minecraft is for Pc
+		Mario is voor Nintendo
+		Little Big Planet is voor Playstation
+		Minecraft is voor Pc
 	
 	*/
-
 ?>
 
 <html>
-
-	<head></head>
+	<head>
+		<title>Lusjes</title>
+	</head>
 	<body>
-	
-		<h1>Loops!</h1>
-		
+		<h1>Lusjes!</h1>
 		<h3>------------------------------</h3>
 		
 		<p>
 		<?php 
-			
-			//****** Write your code here! ******
-			
-			echo "Your first loop!";
-			
-			
+			// Je eerste lusje. Als je er even niet uit komt, kijk dan gerust naar de voorbeelden hierboven!
+			echo "Probeer nou eens iets met lusjes te doen.";
 		?>
 		</p>
 		
 		<h3>------------------------------</h3>
-		
-		<a href="index.php">Back to home</a>
-		
+		<a href="index.php">Terug naar het overzicht</a>
 	
 	</body>
-
 </html>
