@@ -1,65 +1,52 @@
 <?php 
-	
 	/*
-		
 		-----------------------------------
-		------ All About echo's ! ---------
-		-----------------------------------
-		
-		-----------------------------------
-		-- Normal Echo
+		------ Vanalles over echo! --------
 		-----------------------------------
 		
-		-- code
-		
-			echo "Hello world!";
-		
-		-- result
-
-			Hello world!
-		
-		
 		-----------------------------------
-		-- Appending strings
+		-- Normale echo
 		-----------------------------------
 		
-		-- code
+		-- Code voorbeeld
 		
-			echo "Hello world, " . " my name is Jon!";
+			echo "Hallo, wereld!";
 		
-		-- result
+		-- Resultaat
+			Hallo, wereld!
 		
-			Hello world, my name is Jon!
+		-----------------------------------
+		-- Tekst aan elkaar plakken
+		-----------------------------------
+		
+		-- Code voorbeeld
+			echo "Hallo, CoderDojo. " . " Mijn naam is Jonathan!";
+		
+		-- Resultaat
+			Hallo, Coderdojo.  Mijn naam is Jonathan!
 		
 	*/
 ?>
 
 <html>
 
-	<head></head>
+	<head>
+		<title>Introductie</title>
+	</head>
 	<body>
-	
-		<h1>Welcome to the world of PHP!</h1>
-	
-		<h3>Let's echo all the things!</h3>
-		
+		<h1>Welkom in de wereld van PHP</h1>
+		<h3>Hier gaan we leren om echo's te gebruiken</h3>
 		<h3>------------------------------</h3>
 		
 		<p>
 		<?php 
-			
-			//****** Write your code here! ******
-			
-			echo "Your first echo!";
-			
+			// Probeer hier dingen met echo te doen. Als je het even niet meer weet, kijk dan naar het overzicht hierboven
+			echo "Hoi, ik ben een echo!";
 		?>
 		</p>
 		
 		<h3>------------------------------</h3>
-		
-		<a href="index.php">Back to home</a>
-		
+		<a href="index.php">Terug naar het overzicht</a>
 	
 	</body>
-
 </html>
