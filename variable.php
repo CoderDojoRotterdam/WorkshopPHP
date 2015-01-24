@@ -1,125 +1,108 @@
-<?php
-	
-	/*
-	
-	-----------------------------------
-	----------- Variablen -------------
-	-----------------------------------
-	
-	-----------------------------------
-	-- Basis - variabelen met tekst
-	-----------------------------------
-	
-	-- Code voorbeeld
-	
-		$fruit = "appel";
-	
-		echo $fruit;
-	
-	-- Resultaat
-	
-		Appel
-	
-	-----------------------------------
-	-- Tekst aan elkaar plakken
-	-----------------------------------
-	
-	-- Code voorbeeld
-	
-		$naam 			= "Jon";
-		$achternaam 	= "van Put"
-		$volledige_naam = $name . " " . $achternaam;
-		
-		echo "Mijn naam  " . $volledige_naam;
-		
-	-- Resultaat
-	
-		Mijn naam is Jon van Put
-	
-	-----------------------------------
-	-- Variabelen met nummers
-	-----------------------------------
-	
-	-- Code voorbeeld
-	 
-		$nummer = 35;
-		
-		echo $number;
-		
-		echo "Het nummer is " . $number;
-		
-	-- Resultaat
-	
-		35
-		
-		Het nummer is 35
-	
-	-----------------------------------
-	-- Nummers aan elkaar plakken (hetzelfde met tekst)
-	-----------------------------------
-	
-	-- Code voorbeeld
-		
-		$nummerA = 1;
-		
-		$nummerB = 5;
-		
-		$nummerResultaat = $nummerA . $nummerB;
-		
-		echo "Het nummer is " . $nummberResultaat;
-		
-	-- Resultaat
-	
-		Het nummer is 15
-	
-	-----------------------------------
-	-- Rekenen met variabelen
-	-----------------------------------
-	
-	-- Code voorbeeld
-	
-		$jaar = 2015;
-		
-		$geboortejaar = 1987;
-		
-		$leeftijd = $jaar - $geboortejaar;
-		
-		echo "Ik ben " . $leeftijd . " jaar oud!";
-		
-	-- Resultaat
-	
-		Ik ben 28 jaar oud!
-		
-	-----------------------------------
-	-- Tekst en nummers combineren
-	-----------------------------------
-	
-	-- Code voorbeeld
-		
-		$volledige_naam = "Jon van Put";
-		
-		$leeftijd = 28;
-		
-		$profiel = "Mijn naam is " . $volledige_naam . " en ik ben " . $leeftijd . " jaar oud!";
-		
-		echo $profiel;
-		
-	-- Resultaat
-	
-		Mijn naam is jon van Put en ik ben 28 jaar oud!
-	
-	*/
-?>
-
 <html>
 
 	<head>
 		<title>Variabelen</title>
 	</head>
 	<body>
-	
 		<h1>Variabelen</h1>
 		<h3>------------------------------</h3>
+		<?php
+			
+			/**
+			 * Een simpele variabele met tekst (string)
+			 **/
+			$fruit = "appel";
+			echo $appel;
+		?>
+		<br/>
+		<?php
+			
+			/**
+			 * Variabelen aan elkaar plakken met een punt
+			 **/
+			$naam 			= "Jon";
+			$achternaam 	= "van Put";
+			$volledige_naam = $name . " " . $achternaam;
+			echo "Mijn naam  " . $volledige_naam;
+			
+		?>
+		<br/>
+		<?php
+			
+			/**
+			 * Een simpele variabele met getallen
+			 **/
+			$nummer = 35;
+			echo $number;
+		
+		?>
+		<br/>
+		<?php
+			
+			/**
+			 * Nummers aan elkaar plakken
+			 **/
+			$nummerA = 1;
+			$nummerB = 5;
+			$nummerResultaat = $nummerA . $nummerB;
+			echo "Het nummer is " . $nummberResultaat;
+		
+		?>
+		<br/>
+		<?php
+			
+			/**
+			 * Rekenen met getallen
+			 **/
+			
+			// Aftrekken
+			$jaar = 2015;
+			$geboortejaar = 1987;
+			$leeftijd = $jaar - $geboortejaar;
+			echo "Ik ben " . $leeftijd . " jaar oud!";
+		
+		?>
+		<br/>
+		<?php
+		
+			// optellen
+			$appels = 3;
+			$peren = 2;
+			$fruit = $appels + $peren;
+			echo "Ik heb " . $fruit . " stukken fruit";
+		
+		?>
+		<br/>
+		<?php
+		
+			// Vermenigvuldigen (keer)
+			$huizen = 9;
+			$gezin = 4;
+			$inwoners = $huizen * $gezin;
+			echo "Er wonen " . $inwoners . " mensen in dit dorp";
+		
+		?>
+		<br/>
+		<?php
+			
+			// Delen
+			$mensen = 6;
+			$koekjes = 24;
+			$ieder = $koekjes / $mensen;
+			echo "iedereen krijgt " . $ieder . " koekjes";
+		
+		?>
+		<br/>
+		<?php
+		
+			/**
+			 * Alles bij elkaar
+			 **/
+			$volledige_naam = "Jon van Put";
+			$leeftijd = 28;
+			$profiel = "Mijn naam is " . $volledige_naam . " en ik ben " . $leeftijd . " jaar oud!";
+			echo $profiel;
+		?>
 		
 		<p>
 		<?php 
