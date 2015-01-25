@@ -11,6 +11,7 @@
 			<li><a href="introduction.php">Introductie</a></li>
 			<li><a href="variable.php">Variabelen</a></li>
 			<li><a href="array.php">Arrays</a></li>
+			<li><a href="ifelse.php">Als Dan</a></li>
 			<li><a href="loop.php">Lusjes</a></li>
 			<li><a href="function.php">Functies</a></li>
 		</ul>
