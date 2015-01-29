@@ -3,7 +3,7 @@
 		<title>Als Dan</title>
 	</head>
 	<body>
-		<h1>As? Dan!</h1>
+		<h1>Als? Dan!</h1>
 		<h3>------------------------------</h3>
 		
 		<p>
